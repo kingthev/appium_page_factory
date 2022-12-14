@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+    <test name="Test_NativeApp-Pixel3a_Emulator">
+        <parameter name="emulator" value="yes"/>
+        <parameter name="platformName" value="android"/>
+        <parameter name="udid" value="emulator-5554"/>
+        <parameter name="deviceName" value="Pixel_6_Pro_API_33"/>
+        <parameter name="systemPort" value="7878"/>
+        <classes>
+            <class name="mobile.tests.SauceLabLoginTest"/>
+        </classes>
+    </test>
+</suite>
